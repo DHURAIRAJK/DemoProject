@@ -7,7 +7,7 @@
     <server>
       <id>Repository</id>
       <username>~~~Client~~~</username>
-      <password>${clientid}~?~${clientsecret}</password>
+      <password>${client.id}~?~${client.secret}</password>
     </server>
   </servers>
 </settings>
