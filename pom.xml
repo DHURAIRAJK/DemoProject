@@ -50,10 +50,9 @@
 				<version>0.0.13</version>
 				<executions>
 					<execution>
-						<id>validate</id>
-						<phase>validate</phase>
+						<phase>deploy</phase>
 						<goals>
-							<goal>exchange-pre-deploy</goal>
+							<goal>deploy</goal>
 						</goals>
 					</execution>
 				</executions>
